@@ -1,0 +1,419 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The MELT Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="The MELT Project">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143619551-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-143619551-1');
+    </script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar-wrapper">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Responsive navbar -->
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</a>
+                    <h1 class="brand">
+                        <a href="index.html">
+                            <img src="img/melt-logo.png" width="50" alt="" /><span class="d-none d-lg-block"> Melt</span></a>
+                    </h1>
+                    <!-- navigation -->
+                    <nav class="pull-right nav-collapse collapse">
+                        <ul id="menu-main" class="nav">
+                            <li><a title="token-specs" href="#token-specs">Token Specs</a></li>
+                            <li><a title="team" href="#team">Team</a></li>
+                            <li><a title="wallet" href="#wallet">Wallet</a></li>
+                            <li><a title="Bot" href="#bots">Bots</a></li>
+
+                            <li class="hidden-phone"><a title="Telegram" href="https://t.me/meltcommunity" target="_new"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+
+                            <li class="hidden-phone"><a title="Twitter" href="https://twitter.com/project_melt" target="_new"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="hidden-phone"><a title="Reddit" href="https://www.reddit.com/user/Meltofficial" target="_new"><i class="fa fa-reddit" aria-hidden="true"></i></a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header area -->
+    <div id="header-wrapper" class="header-slider">
+        <header class="clearfix">
+            <div class="logo">
+                <img src="img/melt-logo.svg" width="150" alt="" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div id="main-flexslider" class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <p class="home-slide-content">
+                                        <strong>Melt</strong> Token
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="home-slide-content">
+                                        <strong>Rewards & Airdrops</strong>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="home-slide-content">
+                                        Empowering <strong>users</strong>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end slider -->
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <section class="spacer lightblue">
+        <div class="container">
+            <div class="row">
+                <div class="span6 alignright flyLeft">
+                    <blockquote class="large">
+                        Inflation is the one form of taxation that can be imposed without legislation.<cite>Milton Friedman</cite>
+                    </blockquote>
+                </div>
+                <div class="span6 aligncenter flyRight">
+                    <i class="fa fa-btc fa-5x"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- token specs -->
+    <section id="token-specs" class="section">
+        <div class="container">
+            <h4>Token Specs</h4>
+            <div class="row">
+                <div class="span4 offset1">
+                    <div>
+                        <h2>The token that <strong>Melts</strong></h2>
+                        <p>
+                            Melt is an Ethereum ERC20 compliant token. It's been created 100% by our dev team. We have based ourselves on Ethereum because it is one of the most used platforms in the world of cryptocurrencies and has shown every day to be one of the best.
+                        </p>
+                        <p>
+                            One of MELT's rules is to <strong>burn 1% of each transaction made</strong>.
+                        </p>
+                    </div>
+                </div>
+                <div class="span6 offset1 aligncenter  distribution">
+                    <div>
+                        <h2><strong>MELT</strong> specs:</h2>
+                        <p><strong>Contract address:</strong></p>
+                        <p>0x6f72b14383f5ecdacdd2f761a5c4b070f91c2806</p>
+                        <p><strong>Total Supply (initial)</strong></p>
+                        <p>1.000.000 MELT (1 million MELT)</p>
+                        <p><strong>Decimals</strong></p>
+                        <p>2</p>
+                        <p><strong>Deflation rate</strong></p>
+                        <p>1% of each transaction</p>
+                        <p><strong>Minimum MELT burn per transaction:</strong></p>
+                        <p>0.01 MELT</p>
+                    </div>
+                </div>
+                <div class="row distribution">
+                    <div class="span12 aligncenter">
+                        <div>
+                            <h2><strong>MELT</strong> distribution</h2>
+                            <div id='melt-distribution-chart' class="aligncenter"></div>
+                        </div>
+                    </div>
+                    <div class="span12 aligncenter">
+                        <div>
+                            <h2>Check <strong>MELT</strong> contract on <a href="https://etherscan.io/token/0x6f72b14383f5ecdacdd2f761a5c4b070f91c2806" target="_new"><u><strong>Etherscan</strong></u></a></h2>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+    </section>
+    <section id="team" class="section lightblue">
+        <div class="container">
+            <h4>Who We Are</h4>
+            <div class="row">
+                <div class="span8 offset2">
+                    <div>
+                        <h2>We are Lovers of the <strong>blockchain technology</strong></h2>
+                        <p>
+                            Melt's team is made up of people with experience in the Blockchain technology sector. This team is made up of individuals from different parts of the world with a shared trait. <strong>We all love crypto</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span2 offset1 flyIn">
+                    <div class="people">
+                        <img class="team-thumb img-circle" src="img/team/img-1.jpg" alt="" />
+                        <h3>The God Pablito</h3>
+                        <p>
+                            Founder & Developer
+                        </p>
+                    </div>
+                </div>
+                <div class="span2 flyIn">
+                    <div class="people">
+                        <img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />
+                        <h3>Ryuuzaki</h3>
+                        <p>
+                            Co-Founder & Lead Development
+                        </p>
+                    </div>
+                </div>
+                <div class="span2 flyIn">
+                    <div class="people">
+                        <img class="team-thumb img-circle" src="img/team/img-3.jpg" alt="" />
+                        <h3>?</h3>
+                        <p>
+                            Soon
+                        </p>
+                    </div>
+                </div>
+                <div class="span2 flyIn">
+                    <div class="people">
+                        <img class="team-thumb img-circle" src="img/team/img-4.jpg" alt="" />
+                        <h3>?</h3>
+                        <p>
+                            Soon
+                        </p>
+                    </div>
+                </div>
+                <div class="span2 flyIn">
+                    <div class="people">
+                        <img class="team-thumb img-circle" src="img/team/img-5.jpg" alt="" />
+                        <h3>?</h3>
+                        <p>
+                            Soon
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wallet" class="section">
+        <div class="container clearfix">
+            <h4>Wallets</h4>
+            <div class="row">
+                <div class="span8 offset2 aligncenter">
+                    <div>
+                        <h3>
+                            Since <strong>MELT</strong> is an ERC20 token, there's a list of compliant wallets we can recommend.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span4 aligncenter">
+                    <div class="aligncenter">
+                        <a href="https://token.im/">
+                            <img src="img/imtoken.png" alt="imtoken" />
+                        </a>
+                    </div>
+                </div>
+                <div class="span4 aligncenter">
+                    <div class="aligncenter">
+                        <a href="https://trustwallet.com/">
+                            <img src="img/trustwallet.png" alt="trustwallet" />
+                        </a>
+                    </div>
+                </div>
+                <div class="span4 aligncenter">
+                    <div class="aligncenter">
+                        <a href="https://enjinwallet.io/">
+                            <img src="img/enjin.png" alt="enjinwallet" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- spacer section -->
+    <section class="spacer bg3">
+        <div class="container">
+            <div class="row">
+                <div class="span12 aligncenter flyLeft">
+                    <blockquote class="large">
+                        As long as we set up equality, we'll go in the right direction.
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end spacer section -->
+    <!-- section: blog -->
+    <section id="bots" class="section">
+        <div class="container">
+            <h4>Bots</h4>
+            <!-- Three columns -->
+            <div class="row ">
+                <div class="span4 offset4">
+                    <div class="home-post">
+                        <div class="post-image">
+                            <a href="https://telegram.me/MeltProject_bot" target="_new"><img class="max-img" src="img/melt-logo-airdrop.svg" alt="" /></a>
+                        </div>
+                        <div class="post-meta">
+                            <i class="fa fa-telegram fa-2x"></i>
+                            <span class="tags"><strong>Telegram</strong> bot</span>
+                        </div>
+                        <div class="entry-content">
+                            <h5><strong><a href="https://telegram.me/MeltProject_bot">MELT Airdrop</a></strong></h5>
+                            <p>
+                                Our first bot, perfect for <strong>free</strong> onboarding. &hellip;
+                            </p>
+                            <a href="https://telegram.me/MeltProject_bot" class="more">Open</a>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="span6 offset3">
+                    <ul class="social-networks">
+                        <li><a href="https://github.com/the-melt-project"><i class="fa fa-github fa-inverse fa-4x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://t.me/meltcommunity"><i class="fa fa-telegram fa-inverse fa-4x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/project_melt"><i class="fa fa-twitter fa-inverse fa-4x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.reddit.com/user/Meltofficial"><i class="fa fa-reddit fa-inverse fa-4x" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <p class="copyright">
+                        &copy; The Melt Project 2019. All rights reserved.
+                        <div class="credits">
+                            Designed by <strong>The Melt Project</strong>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <a href="#" class="scrollup">
+        <i class="fa fa-arrow-up fa-inverse"></i>
+    </a>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.localScroll.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/inview.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/three.r92.min.js"></script>
+    <script src="js/vanta.birds.min.js"></script>
+    <script>
+        VANTA.BIRDS({
+            el: "#header-wrapper",
+            backgroundColor: 0xffffff,
+            color1: 0x0,
+            color2: 0x3cff,
+            separation: 53.00,
+            cohesion: 67.00,
+            backgroundAlpha: 0.00
+        })
+    </script>
+    <script type="text/javascript" id="cookieinfo" src="https://cookieinfoscript.com/js/cookieinfo.min.js">
+    </script>
+
+</body>
+
+<script>
+    var chartConfig = {
+        type: "pie",
+        backgroundColor: "#fff",
+        gui: {
+            contextMenu: {
+                empty: true
+            }
+        },
+        plot: {
+            // slice: 90,
+            valueBox: {
+                placement: 'in',
+                text: '%t\n%npv%',
+                color: "black",
+                fontSize: '12px'
+
+            },
+            animation: {
+                effect: 2,
+                method: 5,
+                speed: 500,
+                sequence: 1
+            }
+        },
+        plotarea: {},
+        series: [{
+            values: [70],
+            text: "Airdrop & Bounties",
+            backgroundColor: '#9bc9ff',
+        }, {
+            values: [10],
+            text: "Team",
+            backgroundColor: '#1e81ce',
+        }, {
+            values: [10],
+            text: 'Listings',
+            backgroundColor: '#bbb'
+        }, {
+            text: 'Development',
+            values: [10],
+            backgroundColor: '#6877e5'
+        }]
+    };
+
+    zingchart.render({
+        id: 'melt-distribution-chart',
+        data: chartConfig,
+        width: "100%"
+    });
+</script>
+
+</html>
